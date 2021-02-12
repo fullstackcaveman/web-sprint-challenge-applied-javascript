@@ -1,5 +1,3 @@
-const headerContainer = document.querySelector('.header-container');
-
 const Header = (title, date, temp) => {
 	// TASK 1
 	// ---------------------
