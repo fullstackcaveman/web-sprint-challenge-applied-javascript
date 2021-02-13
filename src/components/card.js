@@ -42,6 +42,11 @@ const Card = (article) => {
 	headlineEl.textContent = article.headline;
 	imgEl.src = article.authorPhoto;
 
+	headlineEl.addEventListener('click', (e) => {
+		e.preventDefault();
+		console.log(e.target.innerText);
+	});
+
 	return cardEl;
 
 	// console.log(article);
