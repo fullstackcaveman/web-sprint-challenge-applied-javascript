@@ -36,7 +36,7 @@ const Card = (article) => {
 	cardEl.appendChild(authorContainerEl);
 	authorContainerEl.appendChild(imgContainerEl);
 	imgContainerEl.appendChild(imgEl);
-	imgContainerEl.appendChild(authorEl);
+	authorContainerEl.appendChild(authorEl);
 
 	authorEl.textContent = article.authorName;
 	headlineEl.textContent = article.headline;
